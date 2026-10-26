@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": [
+    {
+      "item": "industria:raw_uranium"
+    },
+    {
+      "item": "industria:uranium_ore"
+    },
+    {
+      "item": "industria:deepslate_uranium_ore"
+    }
+  ],
+  "result": "industria:uranium_ingot",
+  "experience": 1.0,
+  "cookingtime": 100
+}

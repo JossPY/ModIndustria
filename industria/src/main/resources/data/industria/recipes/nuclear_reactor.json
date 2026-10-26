@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LTL",
+    "UCU",
+    "LTL"
+  ],
+  "key": {
+    "L": {
+      "item": "industria:lead_ingot"
+    },
+    "T": {
+      "item": "industria:titanium_ingot"
+    },
+    "U": {
+      "item": "industria:uranium_ingot"
+    },
+    "C": {
+      "item": "industria:cable"
+    }
+  },
+  "result": {
+    "item": "industria:nuclear_reactor",
+    "count": 1
+  }
+}

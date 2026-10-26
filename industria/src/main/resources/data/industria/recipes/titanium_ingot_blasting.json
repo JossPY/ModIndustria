@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": [
+    {
+      "item": "industria:raw_titanium"
+    },
+    {
+      "item": "industria:titanium_ore"
+    },
+    {
+      "item": "industria:deepslate_titanium_ore"
+    }
+  ],
+  "result": "industria:titanium_ingot",
+  "experience": 1.0,
+  "cookingtime": 100
+}

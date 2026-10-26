@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LUL",
+    "LUL",
+    "LUL"
+  ],
+  "key": {
+    "L": {
+      "item": "industria:lead_ingot"
+    },
+    "U": {
+      "item": "industria:uranium_ingot"
+    }
+  },
+  "result": {
+    "item": "industria:uranium_fuel_rod",
+    "count": 1
+  }
+}

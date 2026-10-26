@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [
+    {
+      "item": "industria:raw_lead"
+    },
+    {
+      "item": "industria:lead_ore"
+    },
+    {
+      "item": "industria:deepslate_lead_ore"
+    }
+  ],
+  "result": "industria:lead_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

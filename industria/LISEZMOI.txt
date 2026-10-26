@@ -1,0 +1,32 @@
+INDUSTRIA - mod Forge 1.20.1 (47.3.0) - Java 17
+================================================
+
+Je n'ai pas pu compiler le .jar moi-meme (pas d'acces reseau pour telecharger Forge).
+Voici le projet complet : tu le compiles en 3 etapes, ca prend ~5 minutes.
+
+PREREQUIS : JDK 17 installe (https://adoptium.net).
+
+1) Telecharge le MDK Forge 1.20.1 (47.3.0) : https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html
+   (bouton "Mdk"). Dezippe-le quelque part.
+2) Copie depuis le MDK vers CE dossier : gradlew, gradlew.bat et le dossier gradle/
+3) Dans ce dossier, ouvre un terminal et lance :
+      Windows :  gradlew.bat build
+      Linux/Mac: ./gradlew build
+   Le mod sera dans build/libs/industria-1.0.0.jar -> mets-le dans .minecraft/mods (avec Forge 1.20.1 installe).
+
+Pour tester directement sans installer : gradlew runClient
+
+CONTENU
+- Minerais : uranium, plomb, titane (+ versions deepslate), generation auto dans le monde (couches basses)
+- Fonte : four / haut fourneau (minerai ou brut -> lingot)
+- Cable d'energie : relie generateur / reacteur / foreuse (diffusion FE)
+- Generateur : clic droit avec du charbon/bois, produit 40 FE/t
+- Foreuse : zone 9x9 sous elle, jusqu'au fond. Mets un COFFRE contre elle (sinon elle se remplit et s'arrete).
+  Consomme 150 FE/t. Clic droit = statut. Signal redstone = pause. Ne mine pas les blocs avec inventaire.
+- Reacteur nucleaire : clic droit avec des barres de combustible (4 max), shift+clic main vide = retirer.
+  120 FE/t par barre. Entoure-le de blocs d'EAU (sources) : sans refroidissement -> FUSION (explosion) a 1000.
+  Signal redstone = arret d'urgence. Chaleur > 600 = poison pour les joueurs a 10 blocs.
+  Clic droit main vide = statut.
+- Recettes : cable (fer+redstone), generateur, foreuse, barre (3 uranium + 6 plomb), reacteur (plomb, titane, uranium, cable).
+
+Si ca plante a la compilation ou en jeu : copie-moi l'erreur et je corrige.

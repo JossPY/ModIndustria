@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "industria:uranium_ore",
+    "industria:lead_ore",
+    "industria:titanium_ore"
+  ],
+  "step": "underground_ores"
+}

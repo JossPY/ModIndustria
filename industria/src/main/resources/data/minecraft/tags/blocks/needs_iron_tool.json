@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "industria:uranium_ore",
+    "industria:deepslate_uranium_ore",
+    "industria:titanium_ore",
+    "industria:deepslate_titanium_ore"
+  ]
+}
